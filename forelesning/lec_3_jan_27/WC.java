@@ -39,6 +39,6 @@ class WC {
                 }
             }
         }
-        System.out.println(antLinjer + " linjer," + antTegn + " tegn," + antOrd + "ord");
+        System.out.println(antLinjer + " linjer," + antTegn + " tegn," + antOrd + " ord");
     }
 }
