@@ -19,6 +19,10 @@ class Motorsykkel{
         return produksjonsnummer;
     }
 
+    public String hentRegistreringsnummer(){
+        return registreringsnummer;
+    }
+
     public void kjoer(int antallKilometer){
         kilometerstand += antallKilometer;
     }
