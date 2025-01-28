@@ -1,10 +1,11 @@
 class Motorsykkel{
-    private int kilometerstand = 0;
+    private int kilometerstand;
     private String registreringsnummer;
     private int produksjonsnummer;
     private static int teller;
 
     Motorsykkel( String r){
+        kilometerstand = 0;
         registreringsnummer = r;
         produksjonsnummer = teller;
         teller++;
