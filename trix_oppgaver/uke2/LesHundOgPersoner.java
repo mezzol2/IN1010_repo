@@ -16,8 +16,16 @@ class LesHundOgPersoner {
                     Hund nyHund = new Hund(splitLine[1]);
                     hunder.add(nyHund);
                 } else if (splitLine[0].equals("P")){
-                    Person nyPerson = new Person(splitLine[1]);
+                    String name = "";
+                    for (int i = 1; i < splitLine.length; i++){
+                        name += splitLine[i];
+                        if (i + 1 != splitLine.length){
+                            name += " ";
+                        }
+                    }
+                    Person nyPerson = new Person(name);
                     personer.add(nyPerson);
+                    
                 }
             }
 
