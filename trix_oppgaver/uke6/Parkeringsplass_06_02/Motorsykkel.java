@@ -14,4 +14,9 @@ class Motorsykkel{
     public int getCCM(){
 		return ccm;
 	}
+
+	@Override
+	public String toString(){
+		return "Bike with registration number "+regNum;
+	}
 }

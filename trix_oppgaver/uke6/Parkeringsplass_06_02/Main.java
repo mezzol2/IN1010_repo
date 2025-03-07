@@ -20,6 +20,18 @@ class Main{
         Motorsykkel bike2 = new Motorsykkel("555", 50);
         Motorsykkel bike3 = new Motorsykkel("666", 60);
 
+        Parkeringshus pHus = new Parkeringshus();
+        pHus.parkPåEtasje1(bil1);
+        pHus.parkPåEtasje1(bike1);
+        pHus.parkPåEtasje2(bil2);
+        pHus.parkPåEtasje2(bike2);
+
+        pHus.emtpyPHus();        
+
+        //error test
+        // String string = "hello";
+        // pHus.parkPåEtasje1(string);
+
 
 
     }

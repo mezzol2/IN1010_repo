@@ -14,4 +14,9 @@ class Bil{
 	public int getNumPassengers(){
 		return numPassengers;
 	}
+
+	@Override
+	public String toString(){
+		return "Car with registration number "+regNum;
+	}
 }
