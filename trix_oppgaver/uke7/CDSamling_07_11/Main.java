@@ -8,9 +8,11 @@ class Main {
         System.out.println(cd1);
         System.out.println(cd2);
         
-        System.out.println("Green Day comes before My Chemical Romance alphebetically");
-        System.out.println("Thus, Green Day < My Chemical Romance, so result is negative");
+        System.out.println("American Idiot comes before The Black Parade alphebetically");
+        System.out.println("Thus, American Idiot < The Black Parade, so result is negative");
         System.out.println(cd1.compareTo(cd2));
+        System.out.println("The Black Parade > Seagent Pepper Loney Hearts Club Band, so result is positive");
+        System.out.println(cd2.compareTo(cd3));
 
         CDSamling shelf = new CDSamling();
         shelf.addCD(cd1);
